@@ -52,6 +52,11 @@ pre {
   line-height: 18.5714px;
 }
 
+/* For fixed navbar */
+body {
+  padding-top: 55px;
+}
+
 .navbar {
   background-color: #990000;
   font-family: Cambria !important;
@@ -122,26 +127,35 @@ pre {
   text-align: center;
 }
 
+.align-right {
+  text-align: right;
+}
+
 .container-fluid-custom {
   padding: 3% 10%;
 }
 
-.experienceplus {
-  line-height: 1.3;
-  font-size: 1.2rem;
-  width: 100%;
-  margin: 0 auto 0 auto;
+.text-red {
+  color: #990000;
 }
 
-.title {
+.text-blue {
+  color: #011F5B;
+}
+
+.cambria {
+  font-family: Cambria, Georgia, serif;
+}
+
+.skill-block {
   text-align: center;
+  margin-top: 6px;
+  color: #990000;
 }
 
-.table_right {
-  position: relative;
-  left: 100px;
-  text-align: right;
-  line-height: 1.5;
+.subtitle {
+  color: #A9A9A9;
+  padding-top: 10px;
 }
 
 .contact-me {
